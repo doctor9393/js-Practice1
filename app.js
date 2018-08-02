@@ -1,20 +1,5 @@
 
- /*console.log("\nNice work! Your first application have been launched.");
- console.log("Now, I need to know your name, type it below: ");
- 
- let stdin = process.openStdin();
- 
- stdin.addListener("data", (txt) => {
-     if(txt.toString().trim() === "quit") {
-         console.log("\nHave a nice JS trip! Bye-bye");
-         stdin.end();
-     } else {
-         console.log(`\nHi ${txt.toString().trim()}, nice to meet you at Eleks QA Academy 2018. I am sure you'll become great in your job.`);
-         console.log(`${txt.toString().trim()}, to quit this application you can use 'Ctrl + C' keys, or type 'quit' and hit 'Enter'`); 
-     }   
-   });*/
-
-   let a = 10;
-   let b = 4;
-   let res = a + b;
-   console.log("The sum is " + res); 
+  let str1 = "Nazar";
+  let str2 = "Test_";
+  let newstr = str2.concat(str1);
+  console.log(newstr);
