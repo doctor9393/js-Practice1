@@ -1,8 +1,12 @@
-let a = 101;
-if (a > 100){
-    console.log("variable " + a + " is more that 100"); 
+let a = 51;
+let b = 51;
+let sum = a + b;
+
+if (a == 50 || b == 50 || sum == 50){
+    console.log("TRUE");
+
 }
-else {
-    console.log("variable " + a + " is less that 100"); 
+else{
+    console.log("FALSE");  
 }
 
