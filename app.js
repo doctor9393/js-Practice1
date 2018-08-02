@@ -1,6 +1,8 @@
-let fname = "Nazar";
-let lname = "Milian";
-let age = "25";
-console.log("My name is " + fname);
-console.log("My last name is " + lname);
-console.log("My age is " + age);
+let a = 101;
+if (a > 100){
+    console.log("variable " + a + " is more that 100"); 
+}
+else {
+    console.log("variable " + a + " is less that 100"); 
+}
+
