@@ -1,12 +1,10 @@
-let a = 51;
-let b = 51;
-let sum = a + b;
+let a = 7;
 
-if (a == 50 || b == 50 || sum == 50){
-    console.log("TRUE");
+if (a%3 == 0 || a%7 == 0){
+    console.log("Given positive number IS a multiple of 3 or a multiple of 7");
 
 }
 else{
-    console.log("FALSE");  
+    console.log("Given positive number IS NOT multiple of 3 and 7");  
 }
 
