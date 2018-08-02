@@ -1,5 +1,6 @@
-
-  let str1 = "Nazar";
-  let str2 = "Test_";
-  let newstr = str2.concat(str1);
-  console.log(newstr);
+let fname = "Nazar";
+let lname = "Milian";
+let age = "25";
+console.log("My name is " + fname);
+console.log("My last name is " + lname);
+console.log("My age is " + age);
